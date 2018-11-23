@@ -1,2 +1,2 @@
 # mefbayar.github.io
-ariuka suuuuckkksss
+# ariuka suuuuckkksss
