@@ -3,14 +3,14 @@
 }
 .bodyright {
 	float: left;
-	background-color:yellow;
+	color:yellow;
 	width:90%;
 	height:100%;
 	padding:10px;
 }
 .bodyleft {
 	float:left;
-	background-color:black;
+	color:black;
 	width:10%;
 	height:100%;
 	padding:10;
