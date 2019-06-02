@@ -1,9 +1,11 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace;
 }
 .bodyright {
 	float: left;
 	background-color:yellow;
+	color:black;
 	width:90%;
 	height:100%;
 	padding:10px;
@@ -11,6 +13,7 @@
 .bodyleft {
 	float:left;
 	background-color:black;
+	color:white;
 	width:10%;
 	height:100%;
 	padding:10;
