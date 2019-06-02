@@ -1,1 +1,0 @@
-# mefbayar.github.io
