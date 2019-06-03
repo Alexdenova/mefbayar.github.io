@@ -1,19 +1,16 @@
 * {
-	/*box-sizing: border-box;*/
-	font-family: 'Roboto Mono', monospace;
+	box-sizing: border-box;
 }
 .bodyright {
 	float: left;
-	background-color:yellow;
-	color:black;
+	color:yellow;
 	width:90%;
 	height:100%;
 	padding:10px;
 }
 .bodyleft {
 	float:left;
-	background-color:black;
-	color:white;
+	color:black;
 	width:10%;
 	height:100%;
 	padding:10;
