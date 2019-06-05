@@ -1,25 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Ankhbayar's Introductory Website</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/54b071eb1f.js"></script>
+        <title>mefbayar</title>
+        <script src="top.js"></script>
+    </head>
     <body>
-        <div class="header menu">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <header class="header">
+            <div class="logo col-1">
+                <a href="index.html"><img src="ankhbayar.png" alt="ankhbayar" height="42" width="210"></a>
+            </div>
+            <div class="menu col-2">
+                <ul>
+                    <a href="#head" id="head"><li>Head</li></a>
+                    <a href="#blocks1"><li>Blocks1</li></a>
+                    <a href="#texts1"><li>Texts1</li></a>
+                    <a href="https://www.facebook.com/ankhbayar.enkhtaivan.315"><li><i class="fab fa-facebook fa-1x"></i></li></a>
+                    </ul>
+            </div>
+        </header>
+        <div class="blocks" id="blocks1">
             <ul>
-                <li>Head</li>
-                <li>Links</li>
-                <li></li>
+                <li>
+                    <h5>BLOCK-1</h5>
+                    <p>BICHIH UM OLDOHGUI BN #1</p>
+                </li>
+                <li>
+                    <h5>BLOCK-1</h5>
+                    <p>BICHIH UM OLDOHGUI BN #1</p>
+                </li>
+                <li>
+                    <h5>BLOCK-1</h5>
+                    <p>BICHIH UM OLDOHGUI BN #1</p>    
+                </li>
             </ul>
         </div>
+        <div id="texts1">
+            <script>
+                for(let i=0;i<1000;i++){
+                    document.write("THIS IS NOT WORKING ");
+                }
+            </script>
+        </div>
+        
     </body>
 </html>

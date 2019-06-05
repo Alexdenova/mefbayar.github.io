@@ -1,0 +1,149 @@
+/* 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
+*/
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h5 {
+    font-size: 200%;
+    font-family: 'Open Sans',sans-serif;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+body {
+    background-color: #ededf4;
+    padding : 0;
+    margin : auto;
+}
+h1 {
+    font-size: 80px;
+    padding : 5px;
+    margin : 0px;
+    color : #f79d5c;
+    height:100px;
+}
+a {
+    text-decoration: none;
+}
+h1 a{
+    color:#f79d5c;
+}
+.header {
+    background-color: #ff1e1e;
+    padding :0;
+    margin : 0;
+    height : 100px;
+    width: 100%;
+}
+.logo{
+    width:25%;
+}
+.menu {
+    display : block;
+}
+.menu ul {
+    list-style-type : none;
+    padding-top: 30px;
+    padding-inline-start: 40px;
+}
+.logo {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left:50px;
+}
+.menu li {
+    display : inline-block;
+    padding : 15px;
+    margin-bottom : 18px;
+    background-color: #ff1e1e;
+    color : #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+li a {
+    color : #ededf4;
+}
+.menu li:hover {
+    background-color: #ff5454;
+}
+.blocks{
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.col-1{
+    position: relative;
+}
+.col-2{
+    position: relative;
+    top:-100px;
+    left:25%;
+    width:75%;
+}
+.blocks {
+    display : block;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+.blocks ul {
+    list-style-type : none;
+    padding-top: 30px;
+    padding-inline-start: 40px;
+}
+.blocks li {
+    display : inline-block;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    margin-bottom : 18px;
+    background-color: #ededf4;
+    color : #ff1e1e;
+    border: 1px solid #ff1e1e;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+.blocks li:hover {
+    background-color: #ededf4;
+    box-shadow: 0px 0px 10px #888888;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.content {
+    padding:16px;
+}
+.sticky {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.sticky + .content{
+    padding-top:102px;
+}
